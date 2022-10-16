@@ -41,11 +41,11 @@
 #d=b
 #print(c)
 
-a=[10,20]
-b=[11,12]
-c=a
-d=b
-a.remove(20)
-b.remove(11)
-print(c)
-print(d)
+#a=[10,20]
+#b=[11,12]
+#c=a
+#d=b
+#a.remove(20)
+#b.remove(11)
+#print(c)
+#print(d)
