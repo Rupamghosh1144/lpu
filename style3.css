@@ -1,0 +1,349 @@
+
+/* specificity-->o,1,1,3=113 */
+
+
+/* inline>id>class>normal
+how to calculate specificity?
+_,_,_,_pecificity--> o,1,1,3=113 */
+
+
+
+
+
+
+
+/* div#container ul.songs li.like{
+    background-color: black;
+    color: blue;
+} */
+/* specificity-->0,1,2,3=123.......=>this one have more specifity */
+
+
+
+
+
+
+/* h2{
+    border: 4px solid red;
+    border-radius: 20px; */
+    /* border-top: 8px dotted green;
+    border-width: 4px;
+    border-style: outset;
+    border-color: red;
+} 
+
+/* div{
+    border: 8px solid green;
+} */
+
+/* p{
+    border: 4px solid green;
+
+}
+
+span{
+    border: 2px solid black;
+} */
+
+
+
+/* 
+lecture=48
+h2{
+    border-bottom: 4px solid black;
+    border-top: 4px dotted black;
+    border-right: 2px inset black;
+    border-width: 4px;
+    border-color: blue;
+    border-style: inset;
+
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+img{
+    border: 2px solid red;
+}
+
+div{
+    border: 1px solid green;
+}
+
+li{
+    border:2px solid olivedrab
+}
+
+ul{
+    border: 4px solid blue;
+}
+.total{
+    border: 10px double blue;
+}
+
+
+p{
+    border: 2px solid black;
+}
+
+span{
+    border: 2px solid red;
+} */
+
+
+
+
+
+
+/* lecture=49
+h1{
+    border: 2px solid red;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+    padding-bottom: 50px;
+
+    padding: 40px;
+
+    padding: 30px 
+    100px;
+
+
+    padding: 20px 10px 20px 10px;
+    padding: 100px;
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+
+} */
+
+
+
+
+
+
+
+
+
+
+/* my solution */
+/* h1{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px auto;
+    background-color: gray;
+    width: 1200px;
+    margin:auto;
+}
+
+div{
+    border: 2px solid black;width: 1200px;
+    margin: auto;
+
+}
+
+h2,p{
+    padding-left: 10px;
+}
+
+body{
+    font-family: sans-serif;
+} */
+
+
+
+
+
+
+
+
+
+/* section{
+    border: 2px solid black;
+}
+.me{
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+.meme{
+    padding-left: 10px;
+}
+h1{
+    border: 2px solid #666;
+    text-align: center;
+    background-color: #cdcdcd;
+    padding: 15px 10px;
+    
+}
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin: auto;
+} */
+
+
+
+
+
+/* 
+lecture=51
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-1, .box-2{
+    border: 2px solid black;
+    padding: 10px;
+}  
+
+
+.box-1{
+    margin-bottom: 40px;
+}
+.box-2{
+    margin-top: 60px;
+} */
+
+
+
+
+
+/* 
+body{
+    font-family: sans-serif;
+    color: blue;
+    
+}
+h1,h2{
+    border: 2px solid black;
+    display: inline;
+    height: 100px;
+}
+h1{
+    margin: 100px; 
+     padding: 100px;
+}
+a{
+    border: 2px solid black;
+    margin: 100px;
+    display: block;
+    margin: 50px 10px;
+    padding: 50px;
+}  */
+
+
+
+
+
+/* 
+lecture=53 */
+/* img{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: aqua;
+    margin: 10px;
+    width: 400px;
+} */
+
+
+
+
+
+/* lectur=54 */
+/* a{
+    border: 2px solid black;
+    margin: 50px;
+
+}
+a{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+
+} */
+
+
+
+
+
+/* lecture=55
+ul,li{
+    display: inline;
+    
+
+}
+li{
+
+    border-bottom: 1px solid black;
+     padding-right: 50px;
+     text-align: center;
+     padding-top:10px
+} 
+.nav{
+    text-align: center;
+    border: 2px solid gainsboro ;
+    height: 30px;
+    background-color: gainsboro;
+    
+}
+h2{
+    border-bottom: 2px solid black;
+}
+body{
+    font-family: sans-serif;
+    padding: 0 30px;
+} */
+
+
+
+
+
+
+nav{
+       border: 2px solid #cecece;
+       background-color: gray;
+}
+nav ul{
+   
+    padding-left: 0px;
+    text-align: center;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 20px;
+    border-bottom:2px solid #444;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+section{
+    margin-top: 50px;
+}
+h2{
+    color: #222;
+    border-bottom: 1px solid black;
+}
+body{
+    font-family: sans-serif;
+    padding: 0px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
